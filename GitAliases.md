@@ -21,8 +21,8 @@ git config --global alias.ghcreate '!gh repo create --public --source=. --push'
 # Create a new private repository on GitHub
 git config --global alias.ghcreatep '!gh repo create --private --source=. --push'
 # Initialize and create a new public repository on GitHub
-git config --global alias.ghcreateall '!f() { dir=${1:-.}; mkdir -p $dir && cd $dir && echo "rodrigozx">README.MD && git config --global --add safe.directory $(pwd) && git init && git add . && git commit -m "Initial commit" && git ghcreate;echo Run: cd $dir; }; f'
+git config --global alias.ghcreateall '!f() { dir=${1:-.}; mkdir -p $dir && cd $dir && echo "#New Proyect by rodrigozx">README.MD && git config --global --add safe.directory $(pwd) && git init && git add . && git commit -m "Initial commit" && git ghcreate;echo Run: cd $dir; }; f'
 # Initialize and create a new private repository on GitHub
-git config --global alias.ghcreateallp '!f() { dir=${1:-.}; mkdir -p $dir && cd $dir && echo "#rodrigozx">README.MD && git config --global --add safe.directory $(pwd) && git init && git add . && git commit -m "Initial commit" && git ghcreatep;echo Run: cd $dir; }; f'
+git config --global alias.ghcreateallp '!f() { dir=${1:-.}; mkdir -p $dir && cd $dir && echo "#New Proyect by rodrigozx">README.MD && git config --global --add safe.directory $(pwd) && git init && git add . && git commit -m "Initial commit" && git ghcreatep;echo Run: cd $dir; }; f'
 
 ```
