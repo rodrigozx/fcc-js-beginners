@@ -1,0 +1,212 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  /*Editor*/
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "Operator Mono, MonoLisa, Victor Mono",
+  "editor.fontVariations": true,
+  "editor.fontWeight": "100",
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    },
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "emphasis",
+          "entity.name.method.js",
+          "entity.name.class.js",
+          "entity.name.tag.doctype",
+          "entity.other.attribute-name",
+          "entity.other.attribute-name.tag.jade",
+          "entity.other.attribute-name.tag.pug",
+          "keyword",
+          "keyword.control",
+          "keyword.operator.comparison",
+          "keyword.control.flow.js",
+          "keyword.control.flow.ts",
+          "keyword.control.flow.tsx",
+          "keyword.control.ruby",
+          "keyword.control.module.ruby",
+          "keyword.control.class.ruby",
+          "keyword.control.def.ruby",
+          "keyword.control.loop.js",
+          "keyword.control.loop.ts",
+          "keyword.control.import.js",
+          "keyword.control.import.ts",
+          "keyword.control.import.tsx",
+          "keyword.control.from.js",
+          "keyword.control.from.ts",
+          "keyword.control.from.tsx",
+          "keyword.operator.expression.delete",
+          "keyword.operator.new",
+          "keyword.operator.expression",
+          "keyword.operator.cast",
+          "keyword.operator.relational",
+          "keyword.operator.sizeof",
+          "keyword.operator.logical.python",
+          "italic",
+          "markup.italic",
+          "markup.quote",
+          "markup.changed",
+          "markup.italic.markdown",
+          "markup.quote.markdown",
+          "markup.deleted.diff",
+          "markup.inserted.diff",
+          "meta.delimiter.period",
+          "meta.diff.header.git",
+          "meta.diff.header.from-file",
+          "meta.diff.header.to-file",
+          "meta.tag.sgml.doctype",
+          "meta.var.expr",
+          "meta.class meta.method.declaration meta.var.expr storage.type.js",
+          "meta.decorator punctuation.decorator",
+          "meta.selector",
+          "punctuation.accessor",
+          "punctuation.definition.comment",
+          "punctuation.definition.template-expression.begin",
+          "punctuation.definition.template-expression.end",
+          "punctuation.section.embedded",
+          "quote",
+          "source.js constant.other.object.key.js string.unquoted.label.js",
+          "source.go keyword.package.go",
+          "source.go keyword.import.go",
+          "source.go keyword.function.go",
+          "source.go keyword.type.go",
+          "source.go keyword.struct.go",
+          "source.go keyword.interface.go",
+          "source.go keyword.const.go",
+          "source.go keyword.var.go",
+          "source.go keyword.map.go",
+          "source.go keyword.channel.go",
+          "source.go keyword.control.go",
+          "storage",
+          "storage.type",
+          "storage.modifier",
+          "storage.type.property.js",
+          "storage.type.property.ts",
+          "storage.type.property.tsx",
+          "tag.decorator.js entity.name.tag.js",
+          "tag.decorator.js",
+          "text.html.basic entity.other.attribute-name.html",
+          "text.html.basic entity.other.attribute-name",
+          "variable.language",
+          "variable.other.object.property"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // When lineHeight is set to zero, VS Code will figure out the
+  // the height automatically based on the font
+  "editor.lineHeight": 2.1,
+  // You can use standard CSS syntax here. To enable
+  // ss01 for example, you could set "'ss01' on"
+  "editor.codeLensFontFamily": "Operator Mono, MonoLisa, Victor Mono",
+  "editor.fontSize": 12,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "editor.inlineSuggest.fontFamily": "Operator Mono, MonoLisa, Victor Mono",
+  "files.trimTrailingWhitespace": true,
+  /*ESLINT*/
+  "eslint.useESLintClass": true,
+  "eslint.lintTask.enable": true,
+  "typescript.format.semicolons": "remove",
+  "files.eol": "\n",
+  /*GIT*/
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true
+  },
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  // "terminal.integrated.profiles.windows": {
+  //   "Git_Bash": {
+  //     "path": ["%GIT_BASH%/bash.exe"]
+  //   }
+  },
+  // "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.guides.bracketPairs": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none",
+  "files.autoSave": "onFocusChange",
+  "files.autoSaveWorkspaceFilesOnly": true,
+  "jest.runMode": {
+    "type": "on-demand",
+    "coverage": true
+  },
+
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.ignoreProcessNames": [
+    "starship",
+    "oh-my-posh",
+    "bash",
+    "zsh",
+    "zim"
+  ],
+  "debug.console.fontSize": 12,
+
+  "terminal.integrated.fontFamily": "Operator Mono, MonoLisa, Victor Mono",
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.enableVisualBell": true,
+  "terminal.integrated.enableImages": true,
+  "editor.experimentalInlineEdit.fontFamily": "Operator Mono, MonoLisa, Victor Mono",
+  "editor.inlayHints.fontFamily": "Operator Mono, MonoLisa, Victor Mono",
+  "debug.console.fontFamily": "Operator Mono, MonoLisa, Victor Mono",
+  "scm.inputFontFamily": "Operator Mono, MonoLisa, Victor Mono",
+  "notebook.output.fontFamily": "Operator Mono, MonoLisa, Victor Mono",
+  "errorLens.fontFamily": "Operator Mono, MonoLisa, Victor Mono",
+  "chat.editor.fontFamily": "Operator Mono, MonoLisa, Victor Mono",
+  "gitlens.blame.fontFamily": "Operator Mono, MonoLisa, Victor Mono",
+  "workbench.startupEditor": "none",
+  "git.openRepositoryInParentFolders": "always",
+  "settingsSync.ignoredSettings": [],
+  "workbench.sideBar.location": "right",
+  "github.copilot.nextEditSuggestions.enabled": true
+}
